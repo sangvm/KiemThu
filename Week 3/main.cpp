@@ -6,10 +6,8 @@ int main() {
     int diemRenLuyen;
     string xepLoaiGPA, xepLoaiRenLuyen, xepLoaiCuoiCung;
 
-    cout << "Nhap diem GPA cua sinh vien: ";
     cin >> gpa;
 
-    cout << "Nhap diem ren luyen cua sinh vien: ";
     cin >> diemRenLuyen;
 
     if (gpa >= 3.6 && gpa <= 4.0) {
@@ -50,7 +48,7 @@ int main() {
         xepLoaiCuoiCung = "Xuat sac";
     }
 
-    cout << "Xep loai cuoi cung cua sinh vien: " << xepLoaiCuoiCung << endl;
+    cout << xepLoaiCuoiCung << endl;
 
     return 0;
 }
