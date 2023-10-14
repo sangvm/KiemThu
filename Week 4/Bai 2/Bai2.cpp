@@ -22,7 +22,7 @@ char Grade(int score) {
 int main() {
     int testcase = 6;
     for (int i = 1; i <= testcase; i++) {
-        ifstream inputFile("input_test_" + to_string(i) + ".inp");\
+        ifstream inputFile("input_test_" + to_string(i) + ".inp");
         int score;
         inputFile >> score;
         inputFile.close();
